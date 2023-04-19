@@ -117,8 +117,7 @@ function draw() {
 
         //checar se o trex está tocando no grupo de cacto
         if(trex.isTouching(grupoCacto)){
-            //gameState = END;
-            trex.velocityY = -15;
+            gameState = END;
             somMorto.play();
         }
     }
